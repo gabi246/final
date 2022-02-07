@@ -2,19 +2,21 @@ Final Project - Interactive Data Visualization
 ===
 
 The key learning experience of this course is the final project. 
-You will design a web site and interactive visualizations that answer questions you have or provide an exploratory interface to some topic of your own choosing. 
+You will design a web site and interactive visualizations that answer questions you have, provide an exploratory interface to some topic of your own choosing, or take on a more ambitious experiment than A3. 
 You will acquire the data, design your visualizations, implement them, and critically evaluate the results. 
 
 The path to a good visualization is going to involve mistakes and wrong turns. 
 It is therefore important to recognize that mistakes are valuable in finding the path to a solution, to broadly explore the design space, and to iterate designs to improve possible solutions. 
 To help you explore the design space, we will hold events such as feedback sessions in which you propose your idea and initial designs and receive feedback from the class and staff.
 
-Proposal
+Proposals / Idea Generation
 ---
 
-Submit project proposals using [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSc9DFlcClPArC1RKNFsXzfJfauZA57ksU85kT0hX2OEEDlxqw/viewform?usp=sf_link).
-You may submit more than one proposal.
-1-3 folks per team.
+Submit project ideas using [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSepaCzjEq9AXwmJ8mJ-06ytkQUuLI1Z2QF5KGyhVnKaxBI-mA/viewform?usp=sf_link).
+
+You're encouraged to submit many ideas-- staff will help you identify the most promising ones and possible roadblocks.
+
+Please stick to 1-4 folks per team.
 
 Final Project Materials
 ---
@@ -40,11 +42,14 @@ Your process book should include the following topics. Depending on your project
 As this will be your only chance to describe your project in detail make sure that your process book is a standalone document that fully describes your results and the final design. 
 [Here](http://dataviscourse.net/2015/assets/process_books/bansal_cao_hou.pdf) are a [few examples](http://dataviscourse.net/2015/assets/process_books/walsh_trevino_bett.pdf) of process books from a similar course final.
 
+Tip: Start your process book on Day 1. Make entries after each meeting, and trim / edit as needed towards the end of the project. Many folks use either slides software (like PowerPoint) or Google Docs to make this book, as both allow for flexible layouts and export to PDF.
+
+
 ### Project Website
 
-You will create a public website for your project using GitHub pages or any other web hosting service of your choice. 
+Create a public website for your project using GitHub pages or another web hosting service of your choice. 
 The web site should contain your interactive visualization, summarize the main results of the project, and tell a story. 
-Consider your audience (the site should be public public) and keep the level of discussion at the appropriate level. 
+Consider your audience (the site should be public if possible, unless you're running an experiment, etc.) and keep the level of discussion at the appropriate level. 
 Your process book and data should be linked from the web site as well. 
 Also embed your interactive visualization and your screen-cast in your website. 
 If you are not able to publish your work (e.g., due to confidential data) please let us know in your project proposal.
@@ -52,10 +57,11 @@ If you are not able to publish your work (e.g., due to confidential data) please
 ### Project Screen-Cast
 
 Each team will create a two minute screen-cast with narration showing a demo of your visualization and/or some slides. 
-You can use any screencast tool of your choice, such as Camtasia. 
-Please make sure that the sound quality of your video is good - it may be worthwhile to invest in an external USB microphone. 
+
+You can use any screencast tool of your choice, such as Camtasia or Loom (new and recommended). 
+Please make sure that the sound quality of your video is good -- it may be worthwhile to invest in an external USB microphone-- campus IT should have some you can borrow. 
 Upload the video to an online video-platform such as YouTube or Vimeo and embed it into your project web page. 
-We will show some of the best videos in class.
+For our final project presentation day, we will show as many videos in class as possible, and ask teams to field questions.
 
 We will strictly enforce the two minute time limit for the video, so please make sure you are not running longer. 
 Use principles of good storytelling and presentations to get your key points across. Focus the majority of your screencast on your main contributions rather than on technical details. 
@@ -68,9 +74,11 @@ Outside Libraries/References
 
 For this project you *do not* have to write everything from scratch.
 
-You may *reference* demo programs from books or the web, and *include* popular web libraries like Bootstrap, JQuery, Backbone, React, Meteor, etcetera. 
+You may *reference* demo programs from books or the web, and *include* popular web libraries like Material UI, React, Svelte, etcetera. 
 
-Please *do not* use libraries on top of d3, however. Libraries like nvd3.js look tempting, but such libraries often have poor defaults and result in poor visualizations.
+Please *do not* use libraries on top of d3 without consulting staff, however. 
+Libraries like nvd3.js look tempting, but such libraries often have poor defaults and result in poor visualizations.
+There may be exceptions.
 Instead, draw from the numerous existing d3 examples on the web.
 
 If you use outside sources please provide a References section with links at the end of your Readme.
@@ -79,7 +87,7 @@ Resources
 ---
 The "[Data is Plural](https://tinyletter.com/data-is-plural/archive)" weekly letter often contains interesting datasets.
 
-Think of something you're interested in, go find data on it! Include data processing as part of your work on this project.
+Think of something you're interested in, go find data on it! Include data collection and processing as part of your work on this project.
 
 Requirements
 ---
@@ -96,7 +104,7 @@ GitHub Details
 
 - Fork the repo. You now have a copy associated with your username.
 - Make changes to index.html to fulfill the project requirements. 
-- Make sure your "master" branch matches your "gh-pages" branch. See the GitHub Guides referenced above if you need help.
+- Make sure your "main" branch matches your "gh-pages" branch. See the GitHub Guides referenced above if you need help.
 - Edit the README.md with a link to your gh-pages or other external site: for example http://YourUsernameGoesHere.github.io/DataVisFinal/index.html
 - To submit, make a [Pull Request](https://help.github.com/articles/using-pull-requests/) on the original repository.
 
