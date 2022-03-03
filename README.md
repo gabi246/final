@@ -1,6 +1,9 @@
-Final Project - Interactive Data Visualization  
+##Final Project - Interactive Data Visualization  
 ===
+Website URL: https://gabi246.github.io/final/
 
+The purpose for this website is to bring an understanding on the effects of climate change. We want to create clear visualizations on temperature changes through the years in the Worcester area. 
+We programmed the website using D3 libraries, HTML, and CSS. All references are included at the end of the Process Book. 
 
 
 Requirements
