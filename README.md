@@ -1,4 +1,4 @@
-##Final Project - Interactive Data Visualization  
+Final Project - Interactive Data Visualization  
 ===
 Website URL: https://gabi246.github.io/final/
 
