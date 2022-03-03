@@ -31,7 +31,7 @@
     </div>
 
     <!-- sunburst graph -->
-    <div class="sunburstGraph" style="text-align: center;">
+    <div class="sunburstGraph">
         <svg class="sunburst"></svg>
         <script>
             var nodeData = {
@@ -162,7 +162,12 @@
     </div>
 
     <!-- tempature barchart -->
-    <div class="barchart">
+    <div class="barchart" style="text-align: center;">
+        <p style="width: 800px; margin: auto; margin-top: 15px;">
+            Temperature anomalies are important when researching global climate change. This is the difference between the long-term average temperature and the temperature that is actually occurring. A positive anomaly means that the temperature was warmer than normal, while a negative means the temperature was cooler than normal.
+            
+            We are using temperature anomaly data from Worcster, MA in 1990-2022. As seen in this graph, the temperatures are trending increasingly warmer than the long-term average. This is seen below in the graph. 
+        </p>
         <script>
 
             //making the barchart
@@ -229,7 +234,7 @@
                     .on("mouseover", function(d) { return tooltip.style("visibility", "visible");})
                     .on("mousemove", function(d,i){ 
                         tooltip.text("Year: " + i.year + " Value: " + i.value); 
-                        return tooltip.style("top", (d.clientY -15) +"px").style("left",(d.clientX + 10) +"px");
+                        return tooltip.style("top", (d.clientY +400) +"px").style("left",(d.clientX + 10) +"px");
                     })
                     .on("mouseout", function(d){
                         return tooltip.style("visibility", "hidden");
